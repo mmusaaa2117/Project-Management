@@ -121,7 +121,3 @@ form .example:after{
     background: none;
     color: inherit;
 }
-.noHoverEffect button:hover {
-    background-color: inherit; 
-    cursor: default;
-}
