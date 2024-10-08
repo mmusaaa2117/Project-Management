@@ -105,3 +105,23 @@ form .example:after{
     height: 80%;
     margin: 5% 5% 6% 6%;
 }
+.noHoverEffect:hover:after {
+    content: none;
+    display: none;
+}
+.noHoverEffect a:hover {
+    background: none;
+    color: inherit; 
+}
+.noHoverEffect:after {
+    content: none;
+    display: none;
+}
+.noHoverEffect:hover {
+    background: none;
+    color: inherit;
+}
+.noHoverEffect button:hover {
+    background-color: inherit; 
+    cursor: default;
+}
